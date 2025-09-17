@@ -1,0 +1,88 @@
+/* Reset some browser margins etc */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  
+  html {
+    font-family: 'EB Garamond', Garamond, serif; /* or the specific font you want */
+    line-height: 1.6;
+    scroll-behavior: hidden;
+  }
+  
+  body {
+    background-image: url('images/background1.jpg');
+    background-size: cover;        /* cover entire screen */
+    background-repeat: no-repeat;  /* don't repeat image */
+    background-position: top;   /* center the image */
+    background-attachment: fixed;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    margin-bottom: 40px;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .main-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 0px 0 ;
+  }
+  
+  section {
+    margin-bottom: 0px;
+  }
+  
+  .writing-list, .tbw-list {
+    list-style: none;
+    margin-left: 0;
+  }
+  
+  .writing-list li, .tbw-list li {
+    margin-bottom: 0px;
+  }
+  
+  footer {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+  text-decoration: underline; /* optional: removes underline */
+}
+
+  
